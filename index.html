@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site treinamento</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+    <div class="menu">
+        <!-- oque é e como usa ? -->
+        <ul>
+            <li>
+                <a onclick="changeRouter('home')">Home</a>
+                <a onclick="changeRouter('about')">About</a>
+               
+            </li>
+        </ul>
+    </div>
+
+    <!-- Pesquisar id , pesquisar div , oque é e como usa ? -->
+    <div id="router">
+
+    </div>
+
+    <div class="footer"></div>
+</body>
+
+</html>
+
+
+<script>
+    function main(event) {
+        console.log("DOM completamente carregado e analisado");
+
+    }
+
+    document.addEventListener("DOMContentLoaded", main);
+</script>
+<script src="/js/router.js"></script>
